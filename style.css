@@ -1,0 +1,667 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: "Poppin", sans-serif;
+}
+
+body {
+    background-color: #faf1e6;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+/*HEADER*/
+
+header {
+    background: #b4c979;
+    height: 8rem;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 150;
+}
+
+.header-menu {
+    width: 90%;
+    z-index: 150;
+}
+
+header .header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    color: white;
+    font-size: 2.5rem;
+    padding-left: 15rem;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    margin-left: 3rem;
+}
+
+header ul li a {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav-carrito {
+    height: 25px;
+}
+
+.nav__icon {
+    display: none;
+}
+
+.header__contain .header__menu__link {
+    transition: 0.3s ease;
+    text-decoration: none;
+    padding: 2rem 0;
+    margin: 0 2rem;
+}
+
+.header__contain .header__menu__link:hover {
+    border-top: 2px solid #f5f5f5;
+    border-bottom: 2px solid #f5f5f5;
+    padding: 0.8rem 0;
+    color: #f5f5f5;
+}
+
+.header__logo__fronda {
+    height: 6rem;
+    vertical-align: center;
+    margin-left: 60%;
+}
+
+/* IMAGEN PRINCIPAL */
+
+.inicio-imagen {
+    background-image: url("../proyecto-planta/img/home/header-main.jpg");
+    width: 100%;
+    height: auto;
+    min-height: 60rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inicio-titulo {
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 15rem;
+    color: rgb(184, 224, 161);
+}
+
+.inicio-parrafo {
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 3% 20%;
+    color: white;
+}
+
+/* DESTACADO INICIO */
+
+.destacado-inicio {
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 15% 0 6% 0;
+    padding-left: 4%;
+}
+
+.destacado-parrafo {
+    font-size: 3rem;
+    padding-left: 4%;
+}
+
+.destacado-parrafo-margin {
+    padding-top: 2%;
+}
+
+.destacado-imagen {
+    padding: 10% 0;
+}
+
+.home-boton {
+    width: 50%;
+    height: auto;
+    padding: 4% 0;
+    margin-top: 6%;
+    background: #b4c979;
+    font-size: 3rem;
+    border: none;
+    border-radius: 100px;
+}
+
+.home-boton:hover {
+    background-color: #ad3d29;
+}
+
+/* PREGUNTAS FRECUENTES */
+
+.preguntas-container {
+    margin-top: 4%;
+}
+
+h3 {
+    margin-bottom: 2%;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.accordion-header {
+    margin-bottom: 1%;
+}
+
+.preguntas__boton {
+    color: #b4c979;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
+
+.accordion-button:not(.collapsed) {
+    background: #a59a5c;
+    color: white;
+}
+
+.preguntas-parrafo {
+    font-size: 1.8rem;
+    padding: 0 2rem;
+}
+
+
+/* FORMULARIO */
+
+.mail-form {
+    color: #ad3d29;
+}
+
+.mail-form:hover {
+    color: #a59a5c;
+}
+
+.descripcion-form {
+    margin-bottom: 10%;
+}
+
+.contactanos-form {
+    margin: 1% 3% 0 0;
+    font-size: 1.5rem;
+}
+
+.contactanos-form-color {
+    font-size: 1.4rem;
+    margin: 1.5rem 0;
+    color: #000;
+}
+
+a.form__terminos {
+    text-decoration: underline;
+    color: black;
+}
+
+.contactanos-buton {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    right: 0;
+    margin-top: 1rem;
+    box-shadow: #b4c979;
+}
+
+.button-style-form {
+    display: inline-block;
+    margin: 2rem;
+    padding: 1%;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #ad3d29;
+    font-weight: bold;
+    width: 15rem;
+    border: 0;
+    border-radius: 20px;
+}
+
+.button-style-form:hover {
+    color: #000;
+    background-color: #b4c979;
+}
+
+.carousel-subtitulo {
+    font-size: 2.5rem;
+    color: #000;
+    margin-left: 2%;
+}
+
+
+/* PRODUCTO */
+
+.producto-container {
+    margin-top: 10%;
+}
+
+.producto-boton {
+    width: 50%;
+    height: auto;
+    padding: 2% 0;
+    margin-top: 6%;
+    background: #b4c979;
+    font-size: 2rem;
+    border: none;
+    border-radius: 100px;
+}
+
+.producto-boton:hover {
+    background-color: #ad3d29;
+}
+
+.producto-titulo {
+    font-size: 4rem;
+    color: #6a802e;
+    font-weight: 800;
+    margin-top: 15%;
+    margin-left: 2%;
+}
+
+.producto-precio {
+    font-size: 2.5rem;
+    font-style: italic;
+    color: #a59a5c;
+    font-weight: 600;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.producto-descripcion {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-left: 2%;
+    margin-top: 20%;
+    color: #000;
+}
+
+.producto-texto {
+    font-size: 1.8rem;
+    margin-left: 2%;
+    margin-top: 5%;
+    color: #000;
+}
+
+.boton-atras {
+    margin-top: 10%;
+    width: 15%;
+    height: auto;
+    padding: 1% 0;
+    background: transparent;
+    font-size: 1.4rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #000;
+}
+
+.boton-atras:hover {
+    background: #a59a5c;
+    border: 1px solid #a59a5c;
+}
+
+.galeria-container {
+    margin: 10% 0 4% 0;
+}
+
+.galeria-boton {
+    width: 35%;
+    height: auto;
+    padding: 1% 0;
+    margin-top: 6%;
+    background: #b4c979;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 100px;
+}
+
+.galeria-boton:hover {
+    background-color: #ad3d29;
+}
+
+.charas__gallery__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.charas__gallery__col {
+    padding: 0.5rem;
+}
+
+/* LISTA PLANTAS */
+
+.plantas-container {
+    margin-bottom: 10%;
+}
+
+.titulo_plantas{
+    margin: 3% 0;
+    font-size: 2.8rem;
+    font-weight: 600;
+} 
+
+.titulo-plantas-padding {
+    padding-top: 10%;
+}
+
+.plant-card-title {
+    color: #6a802e;
+    font-size: 2.4rem;
+    padding: 1% 0;
+    font-weight: 600;
+}
+
+.plant_parrafo {
+    font-size: 1.8rem;
+    padding: 1% 1% 3% 1%;
+}
+
+.card-btn {
+    background-color: transparent;
+    border: none;
+    padding-bottom: 5%;
+}
+
+.btn_vista {
+    width: 48%;
+    height: auto;
+    padding: 1% 0;
+    margin-top: 0;
+    background: #b4c979;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 0;
+}
+
+.btn_vista:hover {
+    background-color: #ad3d29;
+}
+
+.btn_carrito {
+    width: 48%;
+    height: auto;
+    padding: 1% 0;
+    margin-top: 0;
+    background: #ad3d29;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 0px;
+}
+
+.btn_carrito:hover {
+    background-color: #b4c979;
+}
+
+.titulo-plantas {
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 25% 0 6% 0;
+    padding-left: 4%;
+}
+
+/* AVISO PRIVACIDAD*/
+
+.container-carousel {
+    padding-top: 6%;
+    padding-bottom: 2%;
+}
+
+.lead-aviso {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+
+
+/* FOOTER */
+
+.footer__contain {
+    margin-left: 0p;
+    margin-right: 0;
+    margin-top: 5%;
+    padding: 2rem;
+    background-color: #b4c979;
+    height: auto;
+    text-align: center;
+    z-index: 40;
+}
+
+.footer-basic {
+    padding: 40px 0;
+    background-color: #B3C979;
+    color: #4b4c4d;
+}
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-basic li {
+    padding: 0 10px;
+}
+
+.footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity: 1;
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+    border: none;
+}
+
+.footer-basic .social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #a59a5c;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+
+    .preguntas-container,
+    .descripcion-container {
+        padding: 0 4%;
+    }
+
+    /* MENU */
+    header nav {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        top: -100;
+        background: #b4c979;
+        transition: top 0.9s;
+        display: none;
+    }
+
+    #menu:target {
+        display: block;
+        top: 0;
+    }
+
+    .nav__icon {
+        display: block;
+        height: 25px;
+    }
+
+    .nav__close {
+        position: absolute;
+        right: 6rem;
+        top: 2.3rem;
+    }
+
+    header ul {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header ul li {
+        margin: 2rem 0;
+    }
+
+    header ul li a {
+        font-size: 3rem;
+    }
+
+    header h2 {
+        padding-left: 6rem;
+    }
+
+    /* PREGUNTAS FRECUENTES */
+
+    h3 {
+        margin-bottom: 4%;
+    }
+
+    /* IMAGEN PRINCIPAL */
+
+    .inicio-imagen {
+        background-image: url("../proyecto-planta/img/home/header-main.jpg");
+        width: 100%;
+        height: auto;
+        min-height: 50rem;
+        background-position-y: -50rem;
+        padding-top: 15%;
+    }
+
+    .inicio-titulo {
+        text-align: center;
+        font-size: 5rem;
+        padding-top: 5rem;
+        color: rgb(184, 224, 161);
+    }
+
+    .inicio-parrafo {
+        text-align: center;
+        font-size: 2rem;
+        margin: 1rem 2rem;
+        color: white;
+    }
+
+    .home-boton {
+        border-radius: 60px;
+        padding: 6% 0;
+    }
+
+    /* PREGUNTAS FRECUENTES */
+
+    .preguntas-container {
+        margin-top: 15%;
+    }
+
+    /* BOTON CONTACTANOS*/
+    .button-style-form {
+        display: inline-block;
+        padding: 2%;
+        border-radius: 50px;
+    }
+
+
+    /* PRODUCTO VISTA PREVIA */
+
+    .producto-titulo {
+        margin-top: 2%;
+    }
+
+
+    .producto-descripcion {
+        margin-top: 10%;
+    }
+
+    .producto-texto {
+        font-size: 1.8rem;
+        margin-left: 2%;
+        margin-top: 5%;
+        color: #000;
+    }
+
+    .boton-atras {
+        margin-top: 25%;
+        width: 40%;
+    }
+
+    .producto-container {
+        padding: 0 8%;
+    }
+
+    /* Aviso Privacidad */
+
+    .container-carousel {
+        padding-top: 20%;
+    }
+
+    .lead-aviso {
+        padding: 0 4%;
+    }
+
+    .titulo_plantas {
+        padding: 0 4%;
+        margin: 10% 0;
+    }
+
+    /* footer__contain */
+    
+    .footer__contain {
+        margin-top: 10%;
+    }
+}

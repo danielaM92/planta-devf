@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Bootstrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+<!-- NUESTROS ESTILOS -->
+<link rel="stylesheet" href="style.css">
+
+<!--WOW css-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+<!-- links iconos footer -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+<!--Poppins fuente-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;0,900;1,300;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+<title>Producto</title>
+</head>
+
+<body>
+    <header class="header__contain">
+        <div class="header-menu">
+            <a href="index.html">
+                <img src="../proyecto-planta/img/nav/logo.png" alt="Fronda Logo" class="header__logo__fronda">
+            </a>
+            <!--Abrir menu en responsive-->
+            <a href="#menu">
+                <img class="nav__icon nav__open" src="../proyecto-planta/img/nav/icn_menu.svg" alt="">
+            </a>
+            <!--Fin abrir menu en responsive-->
+
+            <nav id="menu">
+                <!--Cerrar menu en responsive-->
+                <a href="#"><img class="nav__icon nav__close" src="../proyecto-planta/img/nav/icn_close.svg" alt=""></a>
+                <!--Fin cerrar menu en responsive-->
+
+                <ul>
+                    <li>
+                        <a class="header__menu__link" href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a class="header__menu__link" href="plantas.html">Plantas</a>
+                    </li>
+                    <li>
+                        <a class="header__menu__link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href=""><img class="nav-carrito"
+                                src="../proyecto-planta/img/nav/Icon awesome-shopping-cart.svg" alt=""></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <!-- INICIO PRODUCTO -->
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-primary boton-atras" href="plantas.html" role="button">Volver atrás</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="producto-container col-12 col-md-12 col-lg-6 col-xl-6 d-flex justify-content-center animate__animated animate__fadeInDownBig animate__delay-1s">
+                    <figure><img class="img-fluid animate__animated animate__fadeIn"
+                            src="../proyecto-planta/img/pages/producto1.jpg" alt="Planta Julieta"></figure>
+                </div>
+
+                <div class="producto-container col-12 col-md-12 col-lg-6 col-xl-6">
+                    <h3 class="producto-titulo animate__animated animate__fadeIn animate__delay-2s">Cactus</h3>
+                    <h5 class="producto-precio animate__animated animate__fadeIn animate__delay-2s">$800</h5>
+                    <p class="producto-descripcion animate__animated animate__fadeIn animate__delay-3s">Descripcion</p>
+                    <p class="producto-texto animate__animated animate__fadeIn animate__delay-4s">Soñadora y perseverante. Ella va a llegar a donde quiera ya que ella no
+                        deja de crecer y crecer y
+                        crecer. Lúcela en cualquier librero o mueble alto y vas a ver como sus hojitas van creciendo
+                        alrededor de todo.
+                        Luz: No son fanáticas de la luz intensa, por lo que puedes ponerla en tus espacios poco
+                        iluminados.
+
+                        Agua: Puedes regar cada 1 o 2 semanas. Permite que su tierra seque entre riegos.
+
+                        FYI: Arranca una de sus hojitas, ponla en agua y ve cómo crecen sus raíces.
+
+                        “Cada planta es única y varía en color, tamaño y volúmen”
+                    </p>
+                    <div class="d-flex justify-content-end">
+                        <a class="btn btn-primary producto-boton animate__animated animate__fadeIn animate__delay-5s" href="#" role="button">Añadir al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <!-- FIN PRODUCTO -->
+
+            <!-- INICIO CAROUSEL -->
+            <div class="container galeria-container">
+                <h3 class="carousel-subtitulo animate__animated animate__fadeInLeft animate__delay-5s">También te puede interesar
+                </h3>
+            </div>
+            <div class="container animate__animated animate__fadeIn animate__delay-5s">
+                <div class="row row-cols-auto charas__gallery__row">
+                    <div class="col charas__gallery__col">
+                        <img class="img-fluid" src="../proyecto-planta/img/pages/gal-1.jpg" alt="Cactus en matera">
+                        <div class="d-flex justify-content-end">
+                            <a class="btn btn-primary galeria-boton" href="#" role="button">Añadir al carrito</a>
+                        </div>
+                    </div>
+                    <div class="col charas__gallery__col">
+                        <img class="img-fluid" src="../proyecto-planta/img/pages/gal-2.jpg" alt="Planta en el sol">
+                        <div class="d-flex justify-content-end">
+                            <a class="btn btn-primary galeria-boton" href="#" role="button">Añadir al carrito</a>
+                        </div>
+                    </div>
+                    <div class="col charas__gallery__col">
+                        <img class="img-fluid" src="../proyecto-planta/img/pages/gal-3.jpg"
+                            alt="Monstera en fondo blanco">
+                            <div class="d-flex justify-content-end">
+                                <a class="btn btn-primary galeria-boton" href="#" role="button">Añadir al carrito</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FIN CAROUSEL -->
+
+        </div>
+
+        <div class="footer-basic footer__contain">
+            <div class="social">
+                <a href="#">
+                    <i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a
+                    href="#"><i class="icon ion-social-facebook"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html">Inicio</a></li>
+                <li class="list-inline-item"><a href="contacto.html">Contacto</a></li>
+                <li class="list-inline-item"><a href="index.html">Preguntas Frecuentes</a></li>
+                <li class="list-inline-item"><a href="contacto.html">Terminos y Condiciones</a></li>
+                <li class="list-inline-item"><a href="avisoPrivacidad.html">Aviso de privacidad</a></li>
+            </ul>
+            <p class="copyright">Fronda © 2021</p>
+        </div>
+
+    </main>
+
+    <!-- Script: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
